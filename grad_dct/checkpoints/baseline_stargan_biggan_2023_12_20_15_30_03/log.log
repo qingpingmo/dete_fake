@@ -1,0 +1,36 @@
+['train2.py', '--name', 'baseline_stargan_biggan', '--blur_prob', '0.1', '--blur_sig', '0.0,3.0', '--jpg_prob', '0.1', '--jpg_method', 'cv2,pil', '--jpg_qual', '30,100', '--dataroot', '/opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/', '--dataset1_root', '/opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset/stargan', '--dataset2_root', '/opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset/biggan', '--classes', 'chair,horse', '--batch_size', '128', '--delr_freq', '10', '--lr', '0.0002', '--niter', '100', '--train_split', 'progan_train', '--val_split', 'progan_val', '--mode_method', 'baseline']
+#d1 training images = 32, d2 training images = 32
+loss_d1_cls: 0.7930949926376343 loss_d2_cls: 0.7644696235656738
+loss_d1_cls: 1.2486220598220825 loss_d2_cls: 1.3484245538711548
+loss_d1_cls: 0.7741390466690063 loss_d2_cls: 1.1805322170257568
+loss_d1_cls: 0.8298072218894958 loss_d2_cls: 0.7534934878349304
+loss_d1_cls: 1.0364593267440796 loss_d2_cls: 1.0322058200836182
+loss_d1_cls: 0.9092289209365845 loss_d2_cls: 0.7646896839141846
+loss_d1_cls: 0.6905659437179565 loss_d2_cls: 0.723502516746521
+loss_d1_cls: 0.7321591973304749 loss_d2_cls: 0.7430641651153564
+loss_d1_cls: 0.7489404678344727 loss_d2_cls: 0.8050144910812378
+loss_d1_cls: 0.6999785900115967 loss_d2_cls: 0.704180121421814
+loss_d1_cls: 0.6664289832115173 loss_d2_cls: 0.682097315788269
+loss_d1_cls: 0.7151132225990295 loss_d2_cls: 0.7034620046615601
+loss_d1_cls: 0.7407028675079346 loss_d2_cls: 0.6993598937988281
+loss_d1_cls: 0.699322521686554 loss_d2_cls: 0.6903080344200134
+loss_d1_cls: 0.6995574831962585 loss_d2_cls: 0.6853718757629395
+loss_d1_cls: 0.690306544303894 loss_d2_cls: 0.6738170385360718
+loss_d1_cls: 0.6767085194587708 loss_d2_cls: 0.690836489200592
+loss_d1_cls: 0.7003023624420166 loss_d2_cls: 0.7277820110321045
+loss_d1_cls: 0.6608147621154785 loss_d2_cls: 0.7045363187789917
+loss_d1_cls: 0.6764253377914429 loss_d2_cls: 0.6976258754730225
+loss_d1_cls: 0.6467968225479126 loss_d2_cls: 0.6919171810150146
+loss_d1_cls: 0.644015371799469 loss_d2_cls: 0.671891987323761
+loss_d1_cls: 0.6640037298202515 loss_d2_cls: 0.6847188472747803
+loss_d1_cls: 0.6615417003631592 loss_d2_cls: 0.6823858022689819
+loss_d1_cls: 0.6302908658981323 loss_d2_cls: 0.6657216548919678
+loss_d1_cls: 0.6760159730911255 loss_d2_cls: 0.727301836013794
+loss_d1_cls: 0.6464477777481079 loss_d2_cls: 0.6794037222862244
+loss_d1_cls: 0.6644493341445923 loss_d2_cls: 0.6617631912231445
+loss_d1_cls: 0.6623699069023132 loss_d2_cls: 0.6540440320968628
+loss_d1_cls: 0.648463785648346 loss_d2_cls: 0.6242910623550415
+loss_d1_cls: 0.6093634366989136 loss_d2_cls: 0.6236174702644348
+loss_d1_cls: 0.6870553493499756 loss_d2_cls: 0.6718472242355347
+*************************
+2023_12_20_15_30_32

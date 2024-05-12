@@ -1,0 +1,46 @@
+Dataroot /opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset
+Model_path checkpoints/blur_jpg_prob0.1_4class_1282022_12_28_16_31_58/model_epoch_99.pth
+2023_12_08_11_47_35
+> /opt/data/private/rstao/code/DeepfakeDetection/CNNDetection/validate.py(21)validate()
+-> r_acc = accuracy_score(y_true[y_true==0], y_pred[y_true==0] > 0.5)
+(Pdb) *** TypeError: 'int' object is not callable
+(Pdb) 8000
+(Pdb) *** NameError: name 'r_acc' is not defined
+(Pdb) 8000
+(Pdb) array([1.10610465e-09, 3.37200073e-10, 2.53952106e-13, ...,
+       9.99998689e-01, 1.00000000e+00, 9.99964714e-01])
+(Pdb) array([0, 0, 0, ..., 1, 1, 1])
+(Pdb) > /opt/data/private/rstao/code/DeepfakeDetection/CNNDetection/validate.py(22)validate()
+-> f_acc = accuracy_score(y_true[y_true==1], y_pred[y_true==1] > 0.5)
+(Pdb) array([False, False, False, ..., False, False, False])
+(Pdb) array([0, 0, 0, ..., 1, 1, 1])
+(Pdb) *** TypeError: 'int' object is not callable
+(Pdb) 8000
+(Pdb) array([ True,  True,  True, ..., False, False, False])
+(Pdb) 8000
+(Pdb) array([1.10610465e-09, 3.37200073e-10, 2.53952106e-13, ...,
+       7.12879950e-13, 2.88646144e-16, 8.09492958e-19])
+(Pdb) 4000
+(Pdb) array([False, False, False, ..., False, False, False])
+(Pdb) True
+(Pdb) (array([ 667, 3194, 3311, 3421, 3462, 3534]),)
+(Pdb) array([0, 0, 0, ..., 0, 0, 0])
+(Pdb) 4000
+(Pdb) array([ True,  True,  True, ...,  True,  True,  True])
+(Pdb) array([1.10610465e-09, 3.37200073e-10, 2.53952106e-13, ...,
+       9.99998689e-01, 1.00000000e+00, 9.99964714e-01])
+(Pdb) array([1, 1, 1, ..., 1, 1, 1])
+(Pdb) array([0, 0, 0, ..., 0, 0, 0])
+(Pdb) > /opt/data/private/rstao/code/DeepfakeDetection/CNNDetection/validate.py(23)validate()
+-> acc = accuracy_score(y_true, y_pred > 0.5)
+(Pdb) 0.9985
+(Pdb) array([False, False, False, ..., False, False, False])
+(Pdb) array([ True,  True,  True, ...,  True,  True,  True])
+(Pdb) 0.97625
+(Pdb) > /opt/data/private/rstao/code/DeepfakeDetection/CNNDetection/validate.py(24)validate()
+-> ap = average_precision_score(y_true, y_pred)
+(Pdb) 0.987375
+(Pdb) array([0, 0, 0, ..., 1, 1, 1])
+(Pdb) 8000
+(Pdb) array([False, False, False, ...,  True,  True,  True])
+(Pdb) 

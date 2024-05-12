@@ -1,0 +1,784 @@
+{
+  "arch": "x86_64",
+  "build": "py38",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.11",
+    "python >=3.8,<3.9.0a0",
+    "pytorch 1.8.0"
+  ],
+  "extracted_package_dir": "/root/anaconda3/pkgs/torchaudio-0.8.0-py38",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/not-zip-safe",
+    "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/torchaudio/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/__pycache__/kaldi_io.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/__pycache__/transforms.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/__pycache__/version.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/_internal/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/_internal/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/_internal/__pycache__/fft.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/_internal/__pycache__/misc_ops.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/_internal/__pycache__/module_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/_internal/fft.py",
+    "lib/python3.8/site-packages/torchaudio/_internal/misc_ops.py",
+    "lib/python3.8/site-packages/torchaudio/_internal/module_utils.py",
+    "lib/python3.8/site-packages/torchaudio/_torchaudio.so",
+    "lib/python3.8/site-packages/torchaudio/backend/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/backend/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/backend/__pycache__/_soundfile_backend.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/backend/__pycache__/common.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/backend/__pycache__/no_backend.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/backend/__pycache__/soundfile_backend.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/backend/__pycache__/sox_backend.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/backend/__pycache__/sox_io_backend.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/backend/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/backend/_soundfile_backend.py",
+    "lib/python3.8/site-packages/torchaudio/backend/common.py",
+    "lib/python3.8/site-packages/torchaudio/backend/no_backend.py",
+    "lib/python3.8/site-packages/torchaudio/backend/soundfile_backend.py",
+    "lib/python3.8/site-packages/torchaudio/backend/sox_backend.py",
+    "lib/python3.8/site-packages/torchaudio/backend/sox_io_backend.py",
+    "lib/python3.8/site-packages/torchaudio/backend/utils.py",
+    "lib/python3.8/site-packages/torchaudio/compliance/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/compliance/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/compliance/__pycache__/kaldi.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/compliance/kaldi.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/cmuarctic.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/commonvoice.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/gtzan.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/librispeech.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/libritts.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/ljspeech.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/speechcommands.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/tedlium.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/vctk.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/yesno.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/datasets/cmuarctic.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/commonvoice.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/gtzan.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/librispeech.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/libritts.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/ljspeech.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/speechcommands.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/tedlium.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/utils.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/vctk.py",
+    "lib/python3.8/site-packages/torchaudio/datasets/yesno.py",
+    "lib/python3.8/site-packages/torchaudio/extension/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/extension/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/extension/__pycache__/extension.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/extension/extension.py",
+    "lib/python3.8/site-packages/torchaudio/functional/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/functional/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/functional/__pycache__/filtering.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/functional/__pycache__/functional.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/functional/filtering.py",
+    "lib/python3.8/site-packages/torchaudio/functional/functional.py",
+    "lib/python3.8/site-packages/torchaudio/kaldi_io.py",
+    "lib/python3.8/site-packages/torchaudio/models/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/models/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/models/__pycache__/conv_tasnet.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/models/__pycache__/wav2letter.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/models/__pycache__/wavernn.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/models/conv_tasnet.py",
+    "lib/python3.8/site-packages/torchaudio/models/wav2letter.py",
+    "lib/python3.8/site-packages/torchaudio/models/wavernn.py",
+    "lib/python3.8/site-packages/torchaudio/sox_effects/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/sox_effects/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/sox_effects/__pycache__/sox_effects.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/sox_effects/sox_effects.py",
+    "lib/python3.8/site-packages/torchaudio/transforms.py",
+    "lib/python3.8/site-packages/torchaudio/utils/__init__.py",
+    "lib/python3.8/site-packages/torchaudio/utils/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/utils/__pycache__/sox_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/torchaudio/utils/sox_utils.py",
+    "lib/python3.8/site-packages/torchaudio/version.py"
+  ],
+  "fn": "torchaudio-0.8.0-py38.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/root/anaconda3/pkgs/torchaudio-0.8.0-py38",
+    "type": 1
+  },
+  "md5": "8225743fefe1db34c87e5483c5a03dfa",
+  "name": "torchaudio",
+  "package_tarball_full_path": "/root/anaconda3/pkgs/torchaudio-0.8.0-py38.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "1cca44d4bd1422e8400d3222fac25c3f92b47a89ccfcefcf4f286c5175999dbb",
+        "sha256_in_prefix": "1cca44d4bd1422e8400d3222fac25c3f92b47a89ccfcefcf4f286c5175999dbb",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "df7d5c99f3111fc38f42e0b55b1c877413097372373dc88ca1f603f5d6aa1239",
+        "sha256_in_prefix": "df7d5c99f3111fc38f42e0b55b1c877413097372373dc88ca1f603f5d6aa1239",
+        "size_in_bytes": 1603
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "6647b8314a965c8c1c888a358ad46dcd51955fdad5bc439a26fe0efd6aca8933",
+        "sha256_in_prefix": "6647b8314a965c8c1c888a358ad46dcd51955fdad5bc439a26fe0efd6aca8933",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio-0.8.0a0+a751e1d-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "98f296308456596d89c1b24deb045c91e3758296e38627daa4017467db7b48ca",
+        "sha256_in_prefix": "98f296308456596d89c1b24deb045c91e3758296e38627daa4017467db7b48ca",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9cdf3389e28c8ba6d7c68338c1a52fda0d620f658dc4c7dd0a5e0c1bfc538476",
+        "sha256_in_prefix": "9cdf3389e28c8ba6d7c68338c1a52fda0d620f658dc4c7dd0a5e0c1bfc538476",
+        "size_in_bytes": 1038
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b17873433867df6f3b996ea37e389f27757e2ce8324b2ecaca748426e4de73fa",
+        "sha256_in_prefix": "b17873433867df6f3b996ea37e389f27757e2ce8324b2ecaca748426e4de73fa",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/__pycache__/kaldi_io.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "37685914e8324c270dee4bd39ba3b8dc59b9e435079eefcf3a2036f09ae48fb7",
+        "sha256_in_prefix": "37685914e8324c270dee4bd39ba3b8dc59b9e435079eefcf3a2036f09ae48fb7",
+        "size_in_bytes": 4451
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/__pycache__/transforms.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1251b01699aa94ea9e0c487832644db23f0b28d9173e467963cf49296244b7e1",
+        "sha256_in_prefix": "1251b01699aa94ea9e0c487832644db23f0b28d9173e467963cf49296244b7e1",
+        "size_in_bytes": 43946
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/__pycache__/version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "37327228f80033f4e813d9388b1daef10e3ff79acf1fbb5e36b6b17f7ea18a68",
+        "sha256_in_prefix": "37327228f80033f4e813d9388b1daef10e3ff79acf1fbb5e36b6b17f7ea18a68",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/_internal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/_internal/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bae480b0a2e1dfd5eaa43e3c14d81fad8d3d777df4f2d6dfd0467dee86055d11",
+        "sha256_in_prefix": "bae480b0a2e1dfd5eaa43e3c14d81fad8d3d777df4f2d6dfd0467dee86055d11",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/_internal/__pycache__/fft.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf24c3a95459b6a4049bbc2c626e2744373bc7e59df7a023d7a087a009e45ce8",
+        "sha256_in_prefix": "bf24c3a95459b6a4049bbc2c626e2744373bc7e59df7a023d7a087a009e45ce8",
+        "size_in_bytes": 1437
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/_internal/__pycache__/misc_ops.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f030b2e79068de86c35ff2b1183112cb60e8000e06a773abfe7210d36b7da3e",
+        "sha256_in_prefix": "9f030b2e79068de86c35ff2b1183112cb60e8000e06a773abfe7210d36b7da3e",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/_internal/__pycache__/module_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "78c89a94fe61cbc99d9cc3a02773e47898c4981c552af79eea8c0faac9b180e0",
+        "sha256_in_prefix": "78c89a94fe61cbc99d9cc3a02773e47898c4981c552af79eea8c0faac9b180e0",
+        "size_in_bytes": 2918
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/_internal/fft.py",
+        "path_type": "hardlink",
+        "sha256": "b34a1ea3ffac875ff95571793931609bc2bd7403154cbc12f72e06a8844500d0",
+        "sha256_in_prefix": "b34a1ea3ffac875ff95571793931609bc2bd7403154cbc12f72e06a8844500d0",
+        "size_in_bytes": 1258
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/_internal/misc_ops.py",
+        "path_type": "hardlink",
+        "sha256": "4cb3bd98a405870d4a112baf3c60a2d782ce7f9067bc0abd0b7a6f7666e9fd1f",
+        "sha256_in_prefix": "4cb3bd98a405870d4a112baf3c60a2d782ce7f9067bc0abd0b7a6f7666e9fd1f",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/_internal/module_utils.py",
+        "path_type": "hardlink",
+        "sha256": "f78d8adc754967638d0af271ac27ca3ce092a899ad5115d2baf606eea367212f",
+        "sha256_in_prefix": "f78d8adc754967638d0af271ac27ca3ce092a899ad5115d2baf606eea367212f",
+        "size_in_bytes": 2109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/_torchaudio.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/torchaudio_1614214818648/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "dc402edbcab788875f2582daaabeb272cd8a49a56ec4af68f55e26bf290e56db",
+        "sha256_in_prefix": "abf1c575647143aec9b0c55954a7b3303c030e5b3b9d7df911f8a6c321e20c66",
+        "size_in_bytes": 5539224
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3d97f60888ce99a759266346e07f069a2af37e7308b4f71693b45e2a3e63d69b",
+        "sha256_in_prefix": "3d97f60888ce99a759266346e07f069a2af37e7308b4f71693b45e2a3e63d69b",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d283bc8bffcd113a97e0af05ea272cf56e05a407df2c65e2493fdbe6be3e1629",
+        "sha256_in_prefix": "d283bc8bffcd113a97e0af05ea272cf56e05a407df2c65e2493fdbe6be3e1629",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/__pycache__/_soundfile_backend.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa269460ae2eb0e163c1cd080d58acf631b2324fd52faa6737d6d98546899035",
+        "sha256_in_prefix": "aa269460ae2eb0e163c1cd080d58acf631b2324fd52faa6737d6d98546899035",
+        "size_in_bytes": 13054
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/__pycache__/common.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "989fc07bd2b155866975471b15566ddba7b799fd64a14dc660568396af3a4c51",
+        "sha256_in_prefix": "989fc07bd2b155866975471b15566ddba7b799fd64a14dc660568396af3a4c51",
+        "size_in_bytes": 7541
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/__pycache__/no_backend.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd62fab1f685eff7d4e5721f8340d5f70eb1d61525efe2668c8daabbaee1714d",
+        "sha256_in_prefix": "fd62fab1f685eff7d4e5721f8340d5f70eb1d61525efe2668c8daabbaee1714d",
+        "size_in_bytes": 1470
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/__pycache__/soundfile_backend.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f72acdd977dd056670ac68c2c704713976160c73d7a2dfc7c74e59c88d4db164",
+        "sha256_in_prefix": "f72acdd977dd056670ac68c2c704713976160c73d7a2dfc7c74e59c88d4db164",
+        "size_in_bytes": 2948
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/__pycache__/sox_backend.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9f03d41a3a22a9be44463447b28aceed315c1cc62c8e2ab6f1188bc5252a49d",
+        "sha256_in_prefix": "e9f03d41a3a22a9be44463447b28aceed315c1cc62c8e2ab6f1188bc5252a49d",
+        "size_in_bytes": 8978
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/__pycache__/sox_io_backend.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b43fefaa9cb06d3a10fdf068e7f8911e48ab1e052dd47f514187ed0e5d2d4fb",
+        "sha256_in_prefix": "1b43fefaa9cb06d3a10fdf068e7f8911e48ab1e052dd47f514187ed0e5d2d4fb",
+        "size_in_bytes": 13426
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2cbcc3a372d0fc5307fbe08dd2ff2cfbba198f06d82c2ffd99218f78c0cfe272",
+        "sha256_in_prefix": "2cbcc3a372d0fc5307fbe08dd2ff2cfbba198f06d82c2ffd99218f78c0cfe272",
+        "size_in_bytes": 2869
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/_soundfile_backend.py",
+        "path_type": "hardlink",
+        "sha256": "0857e9653cc53b479989572bd69f8a263acf3ab1d80fd21600a747608bf0ea3f",
+        "sha256_in_prefix": "0857e9653cc53b479989572bd69f8a263acf3ab1d80fd21600a747608bf0ea3f",
+        "size_in_bytes": 16827
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/common.py",
+        "path_type": "hardlink",
+        "sha256": "2682774d983c895a88ab5b47b49c31fefa0bcea02a29f44e1c542e77be8142f8",
+        "sha256_in_prefix": "2682774d983c895a88ab5b47b49c31fefa0bcea02a29f44e1c542e77be8142f8",
+        "size_in_bytes": 7434
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/no_backend.py",
+        "path_type": "hardlink",
+        "sha256": "24b039f4e48a3d37519751cd8ceeaa864b8d57e1bbc2308ec12310970228b88b",
+        "sha256_in_prefix": "24b039f4e48a3d37519751cd8ceeaa864b8d57e1bbc2308ec12310970228b88b",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/soundfile_backend.py",
+        "path_type": "hardlink",
+        "sha256": "588e3886d820fa259e0af9a2097734171935f148e56488a9a5d992f5f269b441",
+        "sha256_in_prefix": "588e3886d820fa259e0af9a2097734171935f148e56488a9a5d992f5f269b441",
+        "size_in_bytes": 3656
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/sox_backend.py",
+        "path_type": "hardlink",
+        "sha256": "a175da4671122f94ad0f32224ed5b9f39a44e3fe96bb199a391a3fe4ed29b422",
+        "sha256_in_prefix": "a175da4671122f94ad0f32224ed5b9f39a44e3fe96bb199a391a3fe4ed29b422",
+        "size_in_bytes": 11371
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/sox_io_backend.py",
+        "path_type": "hardlink",
+        "sha256": "c3ef3b0e204e1286f17317cedcd015ac1a4af48ede6809ee77d816cfd7a5c48e",
+        "sha256_in_prefix": "c3ef3b0e204e1286f17317cedcd015ac1a4af48ede6809ee77d816cfd7a5c48e",
+        "size_in_bytes": 13884
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/backend/utils.py",
+        "path_type": "hardlink",
+        "sha256": "919b05442fed9218a74215609bb2c243b76303581208b65f8e1ffadf9e3c02a4",
+        "sha256_in_prefix": "919b05442fed9218a74215609bb2c243b76303581208b65f8e1ffadf9e3c02a4",
+        "size_in_bytes": 3310
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/compliance/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7eb289f3e78a096b4ae78a72e5a50c964098e2e63e7622d09a92339d89108cf7",
+        "sha256_in_prefix": "7eb289f3e78a096b4ae78a72e5a50c964098e2e63e7622d09a92339d89108cf7",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/compliance/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "881e19bf1b6dea90a18378bd6afffc598bb1fed1c15edb7bde3eb0d4505598cb",
+        "sha256_in_prefix": "881e19bf1b6dea90a18378bd6afffc598bb1fed1c15edb7bde3eb0d4505598cb",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/compliance/__pycache__/kaldi.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ffeebca75e7eadf2be57a22b005d2796d21656f043161269b3d7142383d33f0c",
+        "sha256_in_prefix": "ffeebca75e7eadf2be57a22b005d2796d21656f043161269b3d7142383d33f0c",
+        "size_in_bytes": 28997
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/compliance/kaldi.py",
+        "path_type": "hardlink",
+        "sha256": "a0a94f16be1602fdc298b8d7debb93f3f03eeeb21ef33e2d7fdbaeb5f1ad0f55",
+        "sha256_in_prefix": "a0a94f16be1602fdc298b8d7debb93f3f03eeeb21ef33e2d7fdbaeb5f1ad0f55",
+        "size_in_bytes": 42724
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "301499c9bab9fe0c4edc4c065325336c24d05ba2aff1d2c99ef955fb6de02d0e",
+        "sha256_in_prefix": "301499c9bab9fe0c4edc4c065325336c24d05ba2aff1d2c99ef955fb6de02d0e",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d84ce7fc97a4e974528b1c021716262680a82470a485f2a7acc4ae3780724d8",
+        "sha256_in_prefix": "0d84ce7fc97a4e974528b1c021716262680a82470a485f2a7acc4ae3780724d8",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/cmuarctic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "27725f8e32779a35bde9b1986b31036903ba6348507acce47ecae44f0e755276",
+        "sha256_in_prefix": "27725f8e32779a35bde9b1986b31036903ba6348507acce47ecae44f0e755276",
+        "size_in_bytes": 5516
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/commonvoice.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c649fc787655b3d2bb3723bd15049ea47b6ce02e71596b3509e3ce5df98f1f9",
+        "sha256_in_prefix": "0c649fc787655b3d2bb3723bd15049ea47b6ce02e71596b3509e3ce5df98f1f9",
+        "size_in_bytes": 3665
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/gtzan.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b66868f667d7cfe3368fa2f7add60121ee0ca6fc2eb1e065be92d0ffd0c56ee4",
+        "sha256_in_prefix": "b66868f667d7cfe3368fa2f7add60121ee0ca6fc2eb1e065be92d0ffd0c56ee4",
+        "size_in_bytes": 21989
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/librispeech.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "774fd97872407e82892e610ac4673961aad7d1f1805375fb9e51ce19db11ddbd",
+        "sha256_in_prefix": "774fd97872407e82892e610ac4673961aad7d1f1805375fb9e51ce19db11ddbd",
+        "size_in_bytes": 4737
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/libritts.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e863dab01b766cde05e09699d41dfff790999a996239ee798313821c1a3f8762",
+        "sha256_in_prefix": "e863dab01b766cde05e09699d41dfff790999a996239ee798313821c1a3f8762",
+        "size_in_bytes": 4495
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/ljspeech.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "da0b5bec2cd96691ecd5516d001892b2ef235000d2c327121366c4742fe749d8",
+        "sha256_in_prefix": "da0b5bec2cd96691ecd5516d001892b2ef235000d2c327121366c4742fe749d8",
+        "size_in_bytes": 3088
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/speechcommands.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "915c9723c8830f1c0ee60762040e3e0d21be3b9e954b8cc6e2425fcb0fd81e9a",
+        "sha256_in_prefix": "915c9723c8830f1c0ee60762040e3e0d21be3b9e954b8cc6e2425fcb0fd81e9a",
+        "size_in_bytes": 5718
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/tedlium.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bc0ac8e4137ab27ab861756673d53737b28a28c0146e1c03e8b42f9b6867dd8",
+        "sha256_in_prefix": "8bc0ac8e4137ab27ab861756673d53737b28a28c0146e1c03e8b42f9b6867dd8",
+        "size_in_bytes": 6731
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "afad00f916a5e71d641f41cf50fcfec6d9496290f3111e9b3b4742b01c0b8cdc",
+        "sha256_in_prefix": "afad00f916a5e71d641f41cf50fcfec6d9496290f3111e9b3b4742b01c0b8cdc",
+        "size_in_bytes": 8279
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/vctk.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf37b7f95ac2df69af3eac776d40667886467eeac111d093e5f3525087327d83",
+        "sha256_in_prefix": "bf37b7f95ac2df69af3eac776d40667886467eeac111d093e5f3525087327d83",
+        "size_in_bytes": 8257
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/__pycache__/yesno.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "097ad0599bd0ee34cc5ecfb80cf3bf26cbd4c215127714bc921f25f12268db6f",
+        "sha256_in_prefix": "097ad0599bd0ee34cc5ecfb80cf3bf26cbd4c215127714bc921f25f12268db6f",
+        "size_in_bytes": 3451
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/cmuarctic.py",
+        "path_type": "hardlink",
+        "sha256": "a0f7097bce8d9d4581aca424ef05c4e67c024e80ab2f35930f53eaa2c458221d",
+        "sha256_in_prefix": "a0f7097bce8d9d4581aca424ef05c4e67c024e80ab2f35930f53eaa2c458221d",
+        "size_in_bytes": 6049
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/commonvoice.py",
+        "path_type": "hardlink",
+        "sha256": "ce11a0b26d52cb42559877391b71ef641f91cd2b9a3811709e43c4fc05e0f906",
+        "sha256_in_prefix": "ce11a0b26d52cb42559877391b71ef641f91cd2b9a3811709e43c4fc05e0f906",
+        "size_in_bytes": 3765
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/gtzan.py",
+        "path_type": "hardlink",
+        "sha256": "220af422bcfcd6c213d616e017ac5194c47dbfa8c51c4dc79eec5c97046bd9a9",
+        "sha256_in_prefix": "220af422bcfcd6c213d616e017ac5194c47dbfa8c51c4dc79eec5c97046bd9a9",
+        "size_in_bytes": 24028
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/librispeech.py",
+        "path_type": "hardlink",
+        "sha256": "9312e9cfca669a0d9fef64b69226c315775d95d54201eede5a1d83a009305f39",
+        "sha256_in_prefix": "9312e9cfca669a0d9fef64b69226c315775d95d54201eede5a1d83a009305f39",
+        "size_in_bytes": 5094
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/libritts.py",
+        "path_type": "hardlink",
+        "sha256": "92919222d22ebb42f9c94177adc017ea4549159449e8e9ce3af91e82eebf6cfe",
+        "sha256_in_prefix": "92919222d22ebb42f9c94177adc017ea4549159449e8e9ce3af91e82eebf6cfe",
+        "size_in_bytes": 4929
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/ljspeech.py",
+        "path_type": "hardlink",
+        "sha256": "d5d8f3d2f2b434ba4267d7587894a953c976f10a39effcee12b046386d3c2f94",
+        "sha256_in_prefix": "d5d8f3d2f2b434ba4267d7587894a953c976f10a39effcee12b046386d3c2f94",
+        "size_in_bytes": 3043
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/speechcommands.py",
+        "path_type": "hardlink",
+        "sha256": "5262ed84d6113659b86f054286bc9d9181c232b698b2d1ddcdd295b5c442079f",
+        "sha256_in_prefix": "5262ed84d6113659b86f054286bc9d9181c232b698b2d1ddcdd295b5c442079f",
+        "size_in_bytes": 6228
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/tedlium.py",
+        "path_type": "hardlink",
+        "sha256": "ba1dfcccbdd811949d4fdd74c505740cd186273bceb0d89f28b06cb28a6bf1e0",
+        "sha256_in_prefix": "ba1dfcccbdd811949d4fdd74c505740cd186273bceb0d89f28b06cb28a6bf1e0",
+        "size_in_bytes": 8055
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/utils.py",
+        "path_type": "hardlink",
+        "sha256": "2564281388147f12b15e1b23e7fddba188c2229cb69083cce5f0bc8351f142f0",
+        "sha256_in_prefix": "2564281388147f12b15e1b23e7fddba188c2229cb69083cce5f0bc8351f142f0",
+        "size_in_bytes": 8899
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/vctk.py",
+        "path_type": "hardlink",
+        "sha256": "ad33d8e50ea92980aab565a707ccb886d554e0557f4d24a17d50f525d1bda1b2",
+        "sha256_in_prefix": "ad33d8e50ea92980aab565a707ccb886d554e0557f4d24a17d50f525d1bda1b2",
+        "size_in_bytes": 10142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/datasets/yesno.py",
+        "path_type": "hardlink",
+        "sha256": "2d2f66a3b46d72c4f26c0df21b322c9bd23622f26bd56882a46a7655650750f7",
+        "sha256_in_prefix": "2d2f66a3b46d72c4f26c0df21b322c9bd23622f26bd56882a46a7655650750f7",
+        "size_in_bytes": 2913
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/extension/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "904a82722803c039bdc80226d9090c1d7a2f425f1679df62f9f6fbc0112c6c37",
+        "sha256_in_prefix": "904a82722803c039bdc80226d9090c1d7a2f425f1679df62f9f6fbc0112c6c37",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/extension/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "17bf114cdb447791c496a2f3f4e5df90461f0f380aeecc32807c8b1f165fd129",
+        "sha256_in_prefix": "17bf114cdb447791c496a2f3f4e5df90461f0f380aeecc32807c8b1f165fd129",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/extension/__pycache__/extension.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0025d246805b0e033ca29fd4206174fac189a14d519260dc3782698b97be29be",
+        "sha256_in_prefix": "0025d246805b0e033ca29fd4206174fac189a14d519260dc3782698b97be29be",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/extension/extension.py",
+        "path_type": "hardlink",
+        "sha256": "4ac9b61c90cdbd8aa663f6f5c71b48a588ba9dd1b2342619f8b7e6b66de85e8b",
+        "sha256_in_prefix": "4ac9b61c90cdbd8aa663f6f5c71b48a588ba9dd1b2342619f8b7e6b66de85e8b",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/functional/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "158e87eca38771dad43555429a82ce14666133d50441a9e48bc86cd445ea7246",
+        "sha256_in_prefix": "158e87eca38771dad43555429a82ce14666133d50441a9e48bc86cd445ea7246",
+        "size_in_bytes": 1629
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/functional/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "64e2c0264c8d52f7d15386a378a3ed13b05863d98dd50fb4e7ae2a7ade4d44a8",
+        "sha256_in_prefix": "64e2c0264c8d52f7d15386a378a3ed13b05863d98dd50fb4e7ae2a7ade4d44a8",
+        "size_in_bytes": 1527
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/functional/__pycache__/filtering.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ab53d2a798ac30ea25b44a29a21953ba5735c0835f0e2f00163fedbcdcd8d2a",
+        "sha256_in_prefix": "7ab53d2a798ac30ea25b44a29a21953ba5735c0835f0e2f00163fedbcdcd8d2a",
+        "size_in_bytes": 40151
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/functional/__pycache__/functional.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "31a0ec084d71bdc2a4b85194843da71351c8c998678dc443dfa4f6ca294b13f9",
+        "sha256_in_prefix": "31a0ec084d71bdc2a4b85194843da71351c8c998678dc443dfa4f6ca294b13f9",
+        "size_in_bytes": 33558
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/functional/filtering.py",
+        "path_type": "hardlink",
+        "sha256": "b72f682d7da3e45c0bc69f8a7c78609e8ffec5d893609cb958699f9c97a22d28",
+        "sha256_in_prefix": "b72f682d7da3e45c0bc69f8a7c78609e8ffec5d893609cb958699f9c97a22d28",
+        "size_in_bytes": 52676
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/functional/functional.py",
+        "path_type": "hardlink",
+        "sha256": "93a11bfc4ce9e67819bed4d6054c7ceda257d549fc20058c50a5a9107cadccba",
+        "sha256_in_prefix": "93a11bfc4ce9e67819bed4d6054c7ceda257d549fc20058c50a5a9107cadccba",
+        "size_in_bytes": 41444
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/kaldi_io.py",
+        "path_type": "hardlink",
+        "sha256": "19d89a05b7334dd916347f579b0ad81336ae04369bb52a4a0c4b373a8e96b6d6",
+        "sha256_in_prefix": "19d89a05b7334dd916347f579b0ad81336ae04369bb52a4a0c4b373a8e96b6d6",
+        "size_in_bytes": 5063
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6eefafbaa36407b9cf818c2de80bf63c66cab04b0513b1ba63a4b79ce1368c2c",
+        "sha256_in_prefix": "6eefafbaa36407b9cf818c2de80bf63c66cab04b0513b1ba63a4b79ce1368c2c",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/models/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "66826ca07efdd0b3abc7cba87aa96135de99e6339956a6a668a75cd39c328185",
+        "sha256_in_prefix": "66826ca07efdd0b3abc7cba87aa96135de99e6339956a6a668a75cd39c328185",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/models/__pycache__/conv_tasnet.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d910ca00758b260a0645c0119b89ec838aaaabfd32a5427657a28405206bca0",
+        "sha256_in_prefix": "7d910ca00758b260a0645c0119b89ec838aaaabfd32a5427657a28405206bca0",
+        "size_in_bytes": 9255
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/models/__pycache__/wav2letter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "46c5c1797c03c346920d0e0d07e07eb5e2c30ac3423c2b2a103405d0be86ef2b",
+        "sha256_in_prefix": "46c5c1797c03c346920d0e0d07e07eb5e2c30ac3423c2b2a103405d0be86ef2b",
+        "size_in_bytes": 2580
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/models/__pycache__/wavernn.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "16b6eb35afcfebe66fb6303fb439d60bbe379178bb90ea54ca0e8cb6e603756d",
+        "sha256_in_prefix": "16b6eb35afcfebe66fb6303fb439d60bbe379178bb90ea54ca0e8cb6e603756d",
+        "size_in_bytes": 11498
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/models/conv_tasnet.py",
+        "path_type": "hardlink",
+        "sha256": "213f7322f65310be73786f963786e8c99be5c4f4fde41064c1c159514c462463",
+        "sha256_in_prefix": "213f7322f65310be73786f963786e8c99be5c4f4fde41064c1c159514c462463",
+        "size_in_bytes": 11727
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/models/wav2letter.py",
+        "path_type": "hardlink",
+        "sha256": "d2efe59182a8b33091eabdc7bfa9b4fcccfa15eab6c321bc4ad6f1b8b71722ca",
+        "sha256_in_prefix": "d2efe59182a8b33091eabdc7bfa9b4fcccfa15eab6c321bc4ad6f1b8b71722ca",
+        "size_in_bytes": 3375
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/models/wavernn.py",
+        "path_type": "hardlink",
+        "sha256": "b994f71519e146b2c37fe80ab275ea5745ed37aee91f0c8e4850a7ee22e9f4e8",
+        "sha256_in_prefix": "b994f71519e146b2c37fe80ab275ea5745ed37aee91f0c8e4850a7ee22e9f4e8",
+        "size_in_bytes": 12443
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/sox_effects/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dd0c31e99803ec3f6b8ebee7f778529e563d4f6355b0ccfed5783c7cfa219b88",
+        "sha256_in_prefix": "dd0c31e99803ec3f6b8ebee7f778529e563d4f6355b0ccfed5783c7cfa219b88",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/sox_effects/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "575342e4d04f0e34cf17100fc6b3f3a05f22109545f888159a1c84891897f19f",
+        "sha256_in_prefix": "575342e4d04f0e34cf17100fc6b3f3a05f22109545f888159a1c84891897f19f",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/sox_effects/__pycache__/sox_effects.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "310e68fc0909e6713fc32deafe785a5fcd65a697a32587d80da17499d5fbebd5",
+        "sha256_in_prefix": "310e68fc0909e6713fc32deafe785a5fcd65a697a32587d80da17499d5fbebd5",
+        "size_in_bytes": 11778
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/sox_effects/sox_effects.py",
+        "path_type": "hardlink",
+        "sha256": "0f152b52a9485909c222b8ff839bf44b8f3ae1277042fab0c6ea9d066c9d4a90",
+        "sha256_in_prefix": "0f152b52a9485909c222b8ff839bf44b8f3ae1277042fab0c6ea9d066c9d4a90",
+        "size_in_bytes": 11605
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/transforms.py",
+        "path_type": "hardlink",
+        "sha256": "f25a5221f4a47672b360cbbd242e5ccb103a983f200b0fefe24e6f97859e929e",
+        "sha256_in_prefix": "f25a5221f4a47672b360cbbd242e5ccb103a983f200b0fefe24e6f97859e929e",
+        "size_in_bytes": 48256
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fc9e3a0760d8e80d1fb92c5ed6d5b642f3b1cf4e142f4cc2c63732984fbd8be8",
+        "sha256_in_prefix": "fc9e3a0760d8e80d1fb92c5ed6d5b642f3b1cf4e142f4cc2c63732984fbd8be8",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/utils/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "274e08ab361a67c0988b8f1c68f91ef510c64deef5806922b434de179e8a9ed1",
+        "sha256_in_prefix": "274e08ab361a67c0988b8f1c68f91ef510c64deef5806922b434de179e8a9ed1",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/utils/__pycache__/sox_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e05a6af0e46b30368e0b6561bd2da52ac2f2d64a51053f7327e9c225b9ec279f",
+        "sha256_in_prefix": "e05a6af0e46b30368e0b6561bd2da52ac2f2d64a51053f7327e9c225b9ec279f",
+        "size_in_bytes": 3020
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/utils/sox_utils.py",
+        "path_type": "hardlink",
+        "sha256": "04618b7cfcf0bd70969f64575c57f1afa2aace0d05b3b81f21e868f44bcb75bb",
+        "sha256_in_prefix": "04618b7cfcf0bd70969f64575c57f1afa2aace0d05b3b81f21e868f44bcb75bb",
+        "size_in_bytes": 2596
+      },
+      {
+        "_path": "lib/python3.8/site-packages/torchaudio/version.py",
+        "path_type": "hardlink",
+        "sha256": "bdbc0681fb109a060804dbc124260848665bad0412bc336a96271af237d39f02",
+        "sha256_in_prefix": "bdbc0681fb109a060804dbc124260848665bad0412bc336a96271af237d39f02",
+        "size_in_bytes": 89
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "torchaudio",
+  "size": 4626604,
+  "subdir": "linux-64",
+  "timestamp": 1614215236830,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/torchaudio-0.8.0-py38.tar.bz2",
+  "version": "0.8.0"
+}

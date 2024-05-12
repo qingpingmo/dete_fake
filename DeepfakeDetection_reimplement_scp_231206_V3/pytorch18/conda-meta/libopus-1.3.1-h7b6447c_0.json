@@ -1,0 +1,125 @@
+{
+  "build": "h7b6447c_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/root/anaconda3/pkgs/libopus-1.3.1-h7b6447c_0",
+  "features": "",
+  "files": [
+    "include/opus/opus.h",
+    "include/opus/opus_defines.h",
+    "include/opus/opus_multistream.h",
+    "include/opus/opus_projection.h",
+    "include/opus/opus_types.h",
+    "lib/libopus.a",
+    "lib/libopus.so",
+    "lib/libopus.so.0",
+    "lib/libopus.so.0.8.0",
+    "lib/pkgconfig/opus.pc",
+    "share/aclocal/opus.m4"
+  ],
+  "fn": "libopus-1.3.1-h7b6447c_0.conda",
+  "legacy_bz2_md5": "049062fe7765952d7db02925f43e8fe5",
+  "license": "3-clause BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "/root/anaconda3/pkgs/libopus-1.3.1-h7b6447c_0",
+    "type": 1
+  },
+  "md5": "69dd2e1a52989aaf0971b001c60ea482",
+  "name": "libopus",
+  "package_tarball_full_path": "/root/anaconda3/pkgs/libopus-1.3.1-h7b6447c_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/opus/opus.h",
+        "path_type": "hardlink",
+        "sha256": "8cfcc0feff3921bcc38971beb4b3f37058a49c1ca5da6b59fb4af638e21f8ee6",
+        "sha256_in_prefix": "8cfcc0feff3921bcc38971beb4b3f37058a49c1ca5da6b59fb4af638e21f8ee6",
+        "size_in_bytes": 48429
+      },
+      {
+        "_path": "include/opus/opus_defines.h",
+        "path_type": "hardlink",
+        "sha256": "f43bebc41ef7f7bd3a6b5d38a4410301b4ccdb854ad842fe985e93523802440b",
+        "sha256_in_prefix": "f43bebc41ef7f7bd3a6b5d38a4410301b4ccdb854ad842fe985e93523802440b",
+        "size_in_bytes": 34903
+      },
+      {
+        "_path": "include/opus/opus_multistream.h",
+        "path_type": "hardlink",
+        "sha256": "1bf38c39dfdeef6eefdf504b585be4d4882c01e41c5a88c1249952b10a500ef8",
+        "sha256_in_prefix": "1bf38c39dfdeef6eefdf504b585be4d4882c01e41c5a88c1249952b10a500ef8",
+        "size_in_bytes": 33539
+      },
+      {
+        "_path": "include/opus/opus_projection.h",
+        "path_type": "hardlink",
+        "sha256": "a53752449f55b5f60679eab8fda96835102251aeefccf7c54256460d02747216",
+        "sha256_in_prefix": "a53752449f55b5f60679eab8fda96835102251aeefccf7c54256460d02747216",
+        "size_in_bytes": 28240
+      },
+      {
+        "_path": "include/opus/opus_types.h",
+        "path_type": "hardlink",
+        "sha256": "19cb301ea1eedbcbdbb5049363de061893bf11c20e505a657b69ce6ffa5b11fa",
+        "sha256_in_prefix": "19cb301ea1eedbcbdbb5049363de061893bf11c20e505a657b69ce6ffa5b11fa",
+        "size_in_bytes": 5157
+      },
+      {
+        "_path": "lib/libopus.a",
+        "path_type": "hardlink",
+        "sha256": "5a47bca14b15939ae30dd72fc4f6bcd22427f1f6ec837b6bd04e0b1503fb9758",
+        "sha256_in_prefix": "5a47bca14b15939ae30dd72fc4f6bcd22427f1f6ec837b6bd04e0b1503fb9758",
+        "size_in_bytes": 836946
+      },
+      {
+        "_path": "lib/libopus.so",
+        "path_type": "softlink",
+        "sha256": "e779eae10c44a374d896fe3857ec1cf8c1946a96b092fc81c3774d8eac9b3e0a",
+        "size_in_bytes": 423168
+      },
+      {
+        "_path": "lib/libopus.so.0",
+        "path_type": "softlink",
+        "sha256": "e779eae10c44a374d896fe3857ec1cf8c1946a96b092fc81c3774d8eac9b3e0a",
+        "size_in_bytes": 423168
+      },
+      {
+        "_path": "lib/libopus.so.0.8.0",
+        "path_type": "hardlink",
+        "sha256": "e779eae10c44a374d896fe3857ec1cf8c1946a96b092fc81c3774d8eac9b3e0a",
+        "sha256_in_prefix": "e779eae10c44a374d896fe3857ec1cf8c1946a96b092fc81c3774d8eac9b3e0a",
+        "size_in_bytes": 423168
+      },
+      {
+        "_path": "lib/pkgconfig/opus.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "db9937d7c045cbfd40b20c92363a15a34f1f8cdbddc0aabfa25f988f7e5329ba",
+        "sha256_in_prefix": "1628af4d69b75f33cd6a2c2aeb6612c17cbd36aef1d5e78ace8ee2ca3f226c8a",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "share/aclocal/opus.m4",
+        "path_type": "hardlink",
+        "sha256": "8cf9a338fb44c41f0803dd6ba9a6dff6fd95f2a95c766d76ee873424aeebb275",
+        "sha256_in_prefix": "8cf9a338fb44c41f0803dd6ba9a6dff6fd95f2a95c766d76ee873424aeebb275",
+        "size_in_bytes": 4079
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7fc96f443aaffa57ad0b6502b8f78a118a47b50c7c2f710e8d83f2b9cfd46b59",
+  "size": 503135,
+  "subdir": "linux-64",
+  "timestamp": 1587129391927,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/libopus-1.3.1-h7b6447c_0.conda",
+  "version": "1.3.1"
+}

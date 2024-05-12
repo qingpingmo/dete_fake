@@ -1,0 +1,14 @@
+numpy
+tensorflow-gpu==1.13.2
+protobuf==3.19.6
+pillow
+h5py
+scikit-learn
+scikit-image
+pyyaml
+matplotlib
+jupyterlab
+requests
+moviepy
+-e gantools
+-e gantools/tfnntools

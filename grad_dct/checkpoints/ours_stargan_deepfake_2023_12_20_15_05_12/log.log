@@ -1,0 +1,36 @@
+['train2.py', '--name', 'ours_stargan_deepfake', '--blur_prob', '0.1', '--blur_sig', '0.0,3.0', '--jpg_prob', '0.1', '--jpg_method', 'cv2,pil', '--jpg_qual', '30,100', '--dataroot', '/opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/', '--dataset1_root', '/opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset/stargan', '--dataset2_root', '/opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset/deepfake', '--classes', 'chair,horse', '--batch_size', '128', '--delr_freq', '10', '--lr', '0.0002', '--niter', '100', '--train_split', 'progan_train', '--val_split', 'progan_val', '--mode_method', 'ours']
+#d1 training images = 32, d2 training images = 43
+loss_d1_cls: 0.8980597257614136 loss_d1_domain: 0.7185797095298767 loss_d2_cls: 0.9743894338607788 loss_d2_domain: 0.6715693473815918
+loss_d1_cls: 1.456109881401062 loss_d1_domain: 1.0588442087173462 loss_d2_cls: 1.1159684658050537 loss_d2_domain: 0.4446418881416321
+loss_d1_cls: 0.778428316116333 loss_d1_domain: 1.491294264793396 loss_d2_cls: 0.8081187009811401 loss_d2_domain: 0.2909414768218994
+loss_d1_cls: 1.1507374048233032 loss_d1_domain: 2.0332448482513428 loss_d2_cls: 1.1269962787628174 loss_d2_domain: 0.17802794277668
+loss_d1_cls: 1.0493535995483398 loss_d1_domain: 2.6989951133728027 loss_d2_cls: 0.8744238018989563 loss_d2_domain: 0.09200844913721085
+loss_d1_cls: 0.7526453733444214 loss_d1_domain: 3.4694690704345703 loss_d2_cls: 0.7117866277694702 loss_d2_domain: 0.04832739010453224
+loss_d1_cls: 0.7205812931060791 loss_d1_domain: 4.150470733642578 loss_d2_cls: 0.7035813331604004 loss_d2_domain: 0.021640794351696968
+loss_d1_cls: 0.8795864582061768 loss_d1_domain: 5.062688827514648 loss_d2_cls: 0.8179997205734253 loss_d2_domain: 0.010623577050864697
+loss_d1_cls: 0.7816736102104187 loss_d1_domain: 6.292452335357666 loss_d2_cls: 0.7888811826705933 loss_d2_domain: 0.0024379482492804527
+loss_d1_cls: 0.7010948657989502 loss_d1_domain: 7.526821136474609 loss_d2_cls: 0.7204770445823669 loss_d2_domain: 0.0007226839079521596
+loss_d1_cls: 0.6743220090866089 loss_d1_domain: 8.751459121704102 loss_d2_cls: 0.7138673067092896 loss_d2_domain: 0.00022122656810097396
+loss_d1_cls: 0.7287508249282837 loss_d1_domain: 10.202546119689941 loss_d2_cls: 0.7177449464797974 loss_d2_domain: 5.179316576686688e-05
+loss_d1_cls: 0.7162653207778931 loss_d1_domain: 11.595078468322754 loss_d2_cls: 0.7127871513366699 loss_d2_domain: 1.2764056918967981e-05
+loss_d1_cls: 0.7072862982749939 loss_d1_domain: 13.192477226257324 loss_d2_cls: 0.6999731063842773 loss_d2_domain: 3.0560868253814988e-06
+loss_d1_cls: 0.6918963193893433 loss_d1_domain: 14.82650375366211 loss_d2_cls: 0.7063921689987183 loss_d2_domain: 6.622736350436753e-07
+loss_d1_cls: 0.6781517267227173 loss_d1_domain: 16.457582473754883 loss_d2_cls: 0.6997453570365906 loss_d2_domain: 9.607911266584779e-08
+loss_d1_cls: 0.7027430534362793 loss_d1_domain: 18.501651763916016 loss_d2_cls: 0.7159731388092041 loss_d2_domain: 0.0
+loss_d1_cls: 0.7125070691108704 loss_d1_domain: 20.694942474365234 loss_d2_cls: 0.6957852244377136 loss_d2_domain: 0.0
+loss_d1_cls: 0.6655864715576172 loss_d1_domain: 22.63815689086914 loss_d2_cls: 0.7057571411132812 loss_d2_domain: 0.0
+loss_d1_cls: 0.7070310115814209 loss_d1_domain: 25.23373031616211 loss_d2_cls: 0.7470999956130981 loss_d2_domain: 0.0
+loss_d1_cls: 0.633247971534729 loss_d1_domain: 27.81899070739746 loss_d2_cls: 0.7554889917373657 loss_d2_domain: 0.0
+loss_d1_cls: 0.6160425543785095 loss_d1_domain: 31.01872444152832 loss_d2_cls: 0.6838299632072449 loss_d2_domain: 0.0
+loss_d1_cls: 0.7062305808067322 loss_d1_domain: 32.567596435546875 loss_d2_cls: 0.7183273434638977 loss_d2_domain: 0.0
+loss_d1_cls: 0.6970551013946533 loss_d1_domain: 36.39644241333008 loss_d2_cls: 0.6934256553649902 loss_d2_domain: 0.0
+loss_d1_cls: 0.6772996187210083 loss_d1_domain: 41.35374450683594 loss_d2_cls: 0.7198794484138489 loss_d2_domain: 0.0
+loss_d1_cls: 0.7170854210853577 loss_d1_domain: 43.83637237548828 loss_d2_cls: 0.6970877051353455 loss_d2_domain: 0.0
+loss_d1_cls: 0.6955466270446777 loss_d1_domain: 46.55506134033203 loss_d2_cls: 0.6647864580154419 loss_d2_domain: 0.0
+loss_d1_cls: 0.6633259654045105 loss_d1_domain: 52.7525749206543 loss_d2_cls: 0.6883764266967773 loss_d2_domain: 0.0
+loss_d1_cls: 0.7075707912445068 loss_d1_domain: 54.4185905456543 loss_d2_cls: 0.6779855489730835 loss_d2_domain: 0.0
+loss_d1_cls: 0.6376508474349976 loss_d1_domain: 64.00968933105469 loss_d2_cls: 0.7098658084869385 loss_d2_domain: 0.0
+loss_d1_cls: 0.6417155265808105 loss_d1_domain: 69.88724517822266 loss_d2_cls: 0.6885684728622437 loss_d2_domain: 0.0
+loss_d1_cls: 0.7235137224197388 loss_d1_domain: 69.58116149902344 loss_d2_cls: 0.7027015686035156 loss_d2_domain: 0.0
+*************************
+2023_12_20_15_05_37

@@ -1,0 +1,20 @@
+Dataroot /opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset
+Model_path checkpoints/blur_jpg_prob0.1_4class_1282022_12_28_16_31_58/model_epoch_99.pth
+2023_12_08_15_07_38
+> /opt/data/private/rstao/code/DeepfakeDetection/CNNDetection/eval_test8gan.py(56)<module>()
+-> acc, ap, _, _, _, _ = validate(model, opt)
+(Pdb) (0 progan    ) acc: 98.7; ap: 99.9
+> /opt/data/private/rstao/code/DeepfakeDetection/CNNDetection/eval_test8gan.py(55)<module>()
+-> import pdb; pdb.set_trace()
+(Pdb) 1
+(Pdb) 'stylegan'
+(Pdb) '/opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset/stylegan'
+(Pdb) (1 stylegan  ) acc: 68.1; ap: 97.4
+> /opt/data/private/rstao/code/DeepfakeDetection/CNNDetection/eval_test8gan.py(56)<module>()
+-> acc, ap, _, _, _, _ = validate(model, opt)
+(Pdb) (2 stylegan2 ) acc: 69.8; ap: 97.1
+> /opt/data/private/rstao/code/DeepfakeDetection/CNNDetection/eval_test8gan.py(55)<module>()
+-> import pdb; pdb.set_trace()
+(Pdb) 'biggan'
+(Pdb) ['']
+(Pdb) 

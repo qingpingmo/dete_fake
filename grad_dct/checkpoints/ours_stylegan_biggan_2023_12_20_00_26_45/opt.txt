@@ -1,0 +1,49 @@
+----------------- Options ---------------
+                     arch: res50                         
+               batch_size: 128                           	[default: 64]
+                    beta1: 0.9                           
+                blur_prob: 0.1                           	[default: 0]
+                 blur_sig: 0.0,3.0                       	[default: 0.5]
+          checkpoints_dir: ./checkpoints                 
+                class_bal: False                         
+                  classes: chair,horse                   	[default: ]
+           continue_train: False                         
+                 cropSize: 224                           
+                 data_aug: False                         
+                 dataroot: /opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/	[default: ./dataset/]
+         dataset1_classes:                               
+            dataset1_root: /opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset/stylegan	[default: ./dataset/]
+         dataset2_classes:                               
+            dataset2_root: /opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset/biggan	[default: ./dataset/]
+                delr_freq: 10                            
+          earlystop_epoch: 5                             
+                    epoch: latest                        
+              epoch_count: 1                             
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                  isTrain: True                          	[default: None]
+               jpg_method: cv2,pil                       	[default: cv2]
+                 jpg_prob: 0.1                           	[default: 0]
+                 jpg_qual: 30,100                        	[default: 75]
+               last_epoch: -1                            
+                 loadSize: 256                           
+                loss_freq: 400                           
+                       lr: 0.0002                        	[default: 0.0001]
+                     mode: binary                        
+              mode_method: ours                          	[default: ]
+                     name: ours_stylegan_biggan_2023_12_20_00_26_45	[default: experiment_name]
+                new_optim: False                         
+                    niter: 100                           	[default: 10000]
+                  no_flip: False                         
+              num_threads: 4                             
+                    optim: adam                          
+           resize_or_crop: scale_and_crop                
+                rz_interp: bilinear                      
+          save_epoch_freq: 20                            
+         save_latest_freq: 2000                          
+           serial_batches: False                         
+                   suffix:                               
+              train_split: progan_train                  	[default: train]
+                val_split: progan_val                    	[default: val]
+----------------- End -------------------

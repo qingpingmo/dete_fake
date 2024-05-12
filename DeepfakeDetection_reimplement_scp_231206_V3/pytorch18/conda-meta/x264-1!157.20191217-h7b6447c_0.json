@@ -1,0 +1,93 @@
+{
+  "build": "h7b6447c_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/root/anaconda3/pkgs/x264-1!157.20191217-h7b6447c_0",
+  "features": "",
+  "files": [
+    "bin/x264",
+    "include/x264.h",
+    "include/x264_config.h",
+    "lib/libx264.a",
+    "lib/libx264.so",
+    "lib/libx264.so.157",
+    "lib/pkgconfig/x264.pc"
+  ],
+  "fn": "x264-1!157.20191217-h7b6447c_0.conda",
+  "legacy_bz2_md5": "ca43674c30514c24c8cf30254fc94a9d",
+  "license": "GPL-2.0",
+  "link": {
+    "source": "/root/anaconda3/pkgs/x264-1!157.20191217-h7b6447c_0",
+    "type": 1
+  },
+  "md5": "7fc89e38083023752385add4c4dd4d92",
+  "name": "x264",
+  "package_tarball_full_path": "/root/anaconda3/pkgs/x264-1!157.20191217-h7b6447c_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/x264",
+        "path_type": "hardlink",
+        "sha256": "ad84682c435aff16205938ca96ba76efd987db583c9bf3777948978a3ad4d9c7",
+        "sha256_in_prefix": "ad84682c435aff16205938ca96ba76efd987db583c9bf3777948978a3ad4d9c7",
+        "size_in_bytes": 2161568
+      },
+      {
+        "_path": "include/x264.h",
+        "path_type": "hardlink",
+        "sha256": "48bac5dee2ea77b9ffb5a30814e6c1dca68052daac78ff0b74c54479a1bf08d4",
+        "sha256_in_prefix": "48bac5dee2ea77b9ffb5a30814e6c1dca68052daac78ff0b74c54479a1bf08d4",
+        "size_in_bytes": 46889
+      },
+      {
+        "_path": "include/x264_config.h",
+        "path_type": "hardlink",
+        "sha256": "6c163970ecbda267d64d26ed3e35bdded4281cbaf92d0dfedb42d41db4bc2e2e",
+        "sha256_in_prefix": "6c163970ecbda267d64d26ed3e35bdded4281cbaf92d0dfedb42d41db4bc2e2e",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "lib/libx264.a",
+        "path_type": "hardlink",
+        "sha256": "5c1ed64d9f2bbd719457d6bcaa06c6ab9656a38de0d2807aeba7d59a9eec9810",
+        "sha256_in_prefix": "5c1ed64d9f2bbd719457d6bcaa06c6ab9656a38de0d2807aeba7d59a9eec9810",
+        "size_in_bytes": 3043852
+      },
+      {
+        "_path": "lib/libx264.so",
+        "path_type": "softlink",
+        "sha256": "0889c7944aa9071989cb5d57ae684041fb6d1c9c60692460078e0366addfe3c4",
+        "size_in_bytes": 2082584
+      },
+      {
+        "_path": "lib/libx264.so.157",
+        "path_type": "hardlink",
+        "sha256": "0889c7944aa9071989cb5d57ae684041fb6d1c9c60692460078e0366addfe3c4",
+        "sha256_in_prefix": "0889c7944aa9071989cb5d57ae684041fb6d1c9c60692460078e0366addfe3c4",
+        "size_in_bytes": 2082584
+      },
+      {
+        "_path": "lib/pkgconfig/x264.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "6a300f6687350aed35161f01073f2b63763b5d20e212f44a78473517c34d059f",
+        "sha256_in_prefix": "308bfaf649cad85bc1badc533c630012e403c7587acb81ef12f756a9f0212114",
+        "size_in_bytes": 289
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "28395b8eeff4a7a9e0e4ddca67835805c9e3106a2512c60184d4c19800374eea",
+  "size": 944158,
+  "subdir": "linux-64",
+  "timestamp": 1587147235073,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/x264-1!157.20191217-h7b6447c_0.conda",
+  "version": "1!157.20191217"
+}

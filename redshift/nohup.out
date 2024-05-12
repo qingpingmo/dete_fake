@@ -1,0 +1,74 @@
+[W 04:35:56.137 NotebookApp] Error loading server extension jupyter_tensorboard
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.8/site-packages/notebook/notebookapp.py", line 1991, in init_server_extensions
+        func(self)
+      File "/opt/conda/lib/python3.8/site-packages/jupyter_tensorboard/handlers.py", line 22, in load_jupyter_server_extension
+        from .tensorboard_manager import manager
+      File "/opt/conda/lib/python3.8/site-packages/jupyter_tensorboard/tensorboard_manager.py", line 16, in <module>
+        from tensorboard.backend import application   # noqa
+      File "/opt/conda/lib/python3.8/site-packages/tensorboard/backend/application.py", line 41, in <module>
+        from tensorboard.backend.event_processing import db_import_multiplexer
+      File "/opt/conda/lib/python3.8/site-packages/tensorboard/backend/event_processing/db_import_multiplexer.py", line 30, in <module>
+        from tensorboard import data_compat
+      File "/opt/conda/lib/python3.8/site-packages/tensorboard/data_compat.py", line 24, in <module>
+        from tensorboard.compat.proto import summary_pb2
+      File "/opt/conda/lib/python3.8/site-packages/tensorboard/compat/proto/summary_pb2.py", line 16, in <module>
+        from tensorboard.compat.proto import tensor_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__pb2
+      File "/opt/conda/lib/python3.8/site-packages/tensorboard/compat/proto/tensor_pb2.py", line 16, in <module>
+        from tensorboard.compat.proto import resource_handle_pb2 as tensorboard_dot_compat_dot_proto_dot_resource__handle__pb2
+      File "/opt/conda/lib/python3.8/site-packages/tensorboard/compat/proto/resource_handle_pb2.py", line 16, in <module>
+        from tensorboard.compat.proto import tensor_shape_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__shape__pb2
+      File "/opt/conda/lib/python3.8/site-packages/tensorboard/compat/proto/tensor_shape_pb2.py", line 36, in <module>
+        _descriptor.FieldDescriptor(
+      File "/opt/conda/lib/python3.8/site-packages/google/protobuf/descriptor.py", line 621, in __new__
+        _message.Message._CheckCalledFromGeneratedFile()
+    TypeError: Descriptors cannot be created directly.
+    If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+    If you cannot immediately regenerate your protos, some other possible workarounds are:
+     1. Downgrade the protobuf package to 3.20.x or lower.
+     2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+    
+    More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+Fail to get yarn configuration. node:events:306
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at errorOrDestroy (node:internal/streams/destroy:251:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:550:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 04:35:56.464 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.8/site-packages/jupyterlab
+[I 04:35:56.465 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[E 04:35:56.669 NotebookApp] Fail to get yarn configuration. node:events:306
+          throw er; // Unhandled 'error' event
+          ^
+    
+    Error: EBADF: bad file descriptor, read
+    Emitted 'error' event on ReadStream instance at:
+        at emitErrorNT (node:internal/streams/destroy:188:8)
+        at errorOrDestroy (node:internal/streams/destroy:251:7)
+        at node:internal/fs/streams:193:9
+        at FSReqCallback.wrapper [as oncomplete] (node:fs:550:5) {
+      errno: -9,
+      code: 'EBADF',
+      syscall: 'read'
+    }
+    
+[I 04:35:56.675 NotebookApp] [Jupytext Server Extension] NotebookApp.contents_manager_class is (a subclass of) jupytext.TextFileContentsManager already - OK
+[I 04:35:56.675 NotebookApp] Serving notebooks from local directory: /opt/data/private/wangjuntong/code/redshift
+[I 04:35:56.675 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 04:35:56.676 NotebookApp] http://hostname:8888/?token=8c36d0ddd25a8aca00cbe5d154c4944be46c838aec773f55
+[I 04:35:56.676 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 04:35:56.683 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/nbserver-158831-open.html
+    Or copy and paste this URL:
+        http://hostname:8888/?token=8c36d0ddd25a8aca00cbe5d154c4944be46c838aec773f55

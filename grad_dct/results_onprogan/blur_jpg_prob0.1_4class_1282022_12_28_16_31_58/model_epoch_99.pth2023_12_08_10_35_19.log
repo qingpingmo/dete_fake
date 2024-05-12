@@ -1,0 +1,4 @@
+(Pdb) (Pdb) Dataroot /opt/data/private/rstao/code/DeepfakeDetection/datasets/CNNDetection/CNN_synth_testset
+(Pdb) Model_path checkpoints/blur_jpg_prob0.1_4class_1282022_12_28_16_31_58/model_epoch_99.pth
+(Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) 2023_12_08_10_42_03
+(Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) 

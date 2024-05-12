@@ -1,0 +1,154 @@
+
+MEMORY:  Largest Allocation = 33.8068 Mbyte  |  Largest Allocation Without Generic = 33.8068 Mbyte
+
+-------------------------- Allocated Memory Blocks---- ( Step        0 )------------------
+Task    Nr F                  Variable      MBytes   Cumulative  Function|File|Linenumber
+------------------------------------------------------------------------------------------
+   0     0 0             GetGhostRankForSimulCommRank      0.0001       0.0001  mymalloc_init()|src/data/mymalloc.cc|137
+   0     1 0               GetShmRankForSimulCommRank      0.0001       0.0001  mymalloc_init()|src/data/mymalloc.cc|138
+   0     2 0                GetNodeIDForSimulCommRank      0.0001       0.0002  mymalloc_init()|src/data/mymalloc.cc|139
+   0     3 0                        SharedMemBaseAddr      0.0001       0.0002  mymalloc_init()|src/data/mymalloc.cc|153
+   0     4 1                                IO_Fields      0.0036       0.0038  init_field()|src/io/io.cc|78
+   0     5 1                           ntype_in_files      0.0001       0.0039  read_files_driver()|src/io/io.cc|232
+   0     6 1                                        P      1.4305       1.4344  allocate_memory()|src/io/../gravtree/../data/simparticles|273
+   0     7 1                                     SphP      0.0001       1.4345  allocate_memory()|src/io/../gravtree/../data/simparticles|274
+   0     8 1                  NextActiveParticleHydro      0.0001       1.4346  timebins_allocate()|src/time_integration/timestep.cc|463
+   0     9 1                       NextInTimeBinHydro      0.0001       1.4346  timebins_allocate()|src/time_integration/timestep.cc|466
+   0    10 1                       PrevInTimeBinHydro      0.0001       1.4347  timebins_allocate()|src/time_integration/timestep.cc|469
+   0    11 1                NextActiveParticleGravity      0.0477       1.4824  timebins_allocate()|src/time_integration/timestep.cc|463
+   0    12 1                     NextInTimeBinGravity      0.0477       1.5302  timebins_allocate()|src/time_integration/timestep.cc|466
+   0    13 1                     PrevInTimeBinGravity      0.0477       1.5779  timebins_allocate()|src/time_integration/timestep.cc|469
+   0    14 1                                     Ptmp      0.1717       1.7496  read_ic()|src/io/snap_io.cc|333
+   0    15 0                               CommBuffer     32.0000      33.7496  read_files_driver()|src/io/io.cc|236
+   0    16 0                            CommAuxBuffer      0.0573      33.8068  read_file()|src/io/io.cc|1554
+------------------------------------------------------------------------------------------
+
+MEMORY:  Largest Allocation = 33.8068 Mbyte  |  Largest Allocation Without Generic = 33.8068 Mbyte
+
+-------------------------- Allocated Memory Blocks---- ( Step        0 )------------------
+Task    Nr F                  Variable      MBytes   Cumulative  Function|File|Linenumber
+------------------------------------------------------------------------------------------
+   0     0 0             GetGhostRankForSimulCommRank      0.0001       0.0001  mymalloc_init()|src/data/mymalloc.cc|137
+   0     1 0               GetShmRankForSimulCommRank      0.0001       0.0001  mymalloc_init()|src/data/mymalloc.cc|138
+   0     2 0                GetNodeIDForSimulCommRank      0.0001       0.0002  mymalloc_init()|src/data/mymalloc.cc|139
+   0     3 0                        SharedMemBaseAddr      0.0001       0.0002  mymalloc_init()|src/data/mymalloc.cc|153
+   0     4 1                                IO_Fields      0.0036       0.0038  init_field()|src/io/io.cc|78
+   0     5 1                           ntype_in_files      0.0001       0.0039  read_files_driver()|src/io/io.cc|232
+   0     6 1                                        P      1.4305       1.4344  allocate_memory()|src/io/../gravtree/../data/simparticles|273
+   0     7 1                                     SphP      0.0001       1.4345  allocate_memory()|src/io/../gravtree/../data/simparticles|274
+   0     8 1                  NextActiveParticleHydro      0.0001       1.4346  timebins_allocate()|src/time_integration/timestep.cc|463
+   0     9 1                       NextInTimeBinHydro      0.0001       1.4346  timebins_allocate()|src/time_integration/timestep.cc|466
+   0    10 1                       PrevInTimeBinHydro      0.0001       1.4347  timebins_allocate()|src/time_integration/timestep.cc|469
+   0    11 1                NextActiveParticleGravity      0.0477       1.4824  timebins_allocate()|src/time_integration/timestep.cc|463
+   0    12 1                     NextInTimeBinGravity      0.0477       1.5302  timebins_allocate()|src/time_integration/timestep.cc|466
+   0    13 1                     PrevInTimeBinGravity      0.0477       1.5779  timebins_allocate()|src/time_integration/timestep.cc|469
+   0    14 1                                     Ptmp      0.1717       1.7496  read_ic()|src/io/snap_io.cc|333
+   0    15 0                               CommBuffer     32.0000      33.7496  read_files_driver()|src/io/io.cc|236
+   0    16 0                            CommAuxBuffer      0.0573      33.8068  read_file()|src/io/io.cc|1554
+------------------------------------------------------------------------------------------
+
+MEMORY:  Largest Allocation = 1213.29 Mbyte  |  Largest Allocation Without Generic = 1213.29 Mbyte
+
+-------------------------- Allocated Memory Blocks---- ( Step        0 )------------------
+Task    Nr F                  Variable      MBytes   Cumulative  Function|File|Linenumber
+------------------------------------------------------------------------------------------
+   0     0 0             GetGhostRankForSimulCommRank      0.0001       0.0001  mymalloc_init()|src/data/mymalloc.cc|137
+   0     1 0               GetShmRankForSimulCommRank      0.0001       0.0001  mymalloc_init()|src/data/mymalloc.cc|138
+   0     2 0                GetNodeIDForSimulCommRank      0.0001       0.0002  mymalloc_init()|src/data/mymalloc.cc|139
+   0     3 0                        SharedMemBaseAddr      0.0001       0.0002  mymalloc_init()|src/data/mymalloc.cc|153
+   0     4 1                                        P      1.4305       1.4308  allocate_memory()|src/io/../gravtree/../data/simparticles|273
+   0     5 1                                     SphP      0.0001       1.4308  allocate_memory()|src/io/../gravtree/../data/simparticles|274
+   0     6 1                  NextActiveParticleHydro      0.0001       1.4309  timebins_allocate()|src/time_integration/timestep.cc|463
+   0     7 1                       NextInTimeBinHydro      0.0001       1.4310  timebins_allocate()|src/time_integration/timestep.cc|466
+   0     8 1                       PrevInTimeBinHydro      0.0001       1.4310  timebins_allocate()|src/time_integration/timestep.cc|469
+   0     9 1                NextActiveParticleGravity      0.0477       1.4788  timebins_allocate()|src/time_integration/timestep.cc|463
+   0    10 1                     NextInTimeBinGravity      0.0477       1.5265  timebins_allocate()|src/time_integration/timestep.cc|466
+   0    11 1                     PrevInTimeBinGravity      0.0477       1.5742  timebins_allocate()|src/time_integration/timestep.cc|469
+   0    12 1                       FirstTopleafOfTask      0.0001       1.5743  domain_allocate()|src/domain/domain.cc|163
+   0    13 1                         NumTopleafOfTask      0.0001       1.5743  domain_allocate()|src/domain/domain.cc|164
+   0    14 1                                 TopNodes      0.0026       1.5770  domain_allocate()|src/domain/domain.cc|165
+   0    15 1                               TaskOfLeaf      0.0012       1.5781  domain_allocate()|src/domain/domain.cc|166
+   0    16 1                          ListOfTopleaves      0.0012       1.5793  domain_decomposition()|src/domain/domain.cc|118
+   0    17 1                               Send_count      0.0001       1.5793  treeallocate()|src/tree/tree.cc|794
+   0    18 1                              Send_offset      0.0001       1.5794  treeallocate()|src/tree/tree.cc|795
+   0    19 1                               Recv_count      0.0001       1.5795  treeallocate()|src/tree/tree.cc|796
+   0    20 1                              Recv_offset      0.0001       1.5795  treeallocate()|src/tree/tree.cc|797
+   0    21 0                        TreeNodes_offsets      0.0001       1.5796  treeallocate()|src/tree/tree.cc|824
+   0    22 0                       TreePoints_offsets      0.0001       1.5797  treeallocate()|src/tree/tree.cc|825
+   0    23 0                     TreeNextnode_offsets      0.0001       1.5797  treeallocate()|src/tree/tree.cc|826
+   0    24 0                TreeForeign_Nodes_offsets      0.0001       1.5798  treeallocate()|src/tree/tree.cc|827
+   0    25 0               TreeForeign_Points_offsets      0.0001       1.5798  treeallocate()|src/tree/tree.cc|828
+   0    26 0                            TreeP_offsets      0.0001       1.5799  treeallocate()|src/tree/tree.cc|829
+   0    27 0                         TreeSphP_offsets      0.0001       1.5800  treeallocate()|src/tree/tree.cc|830
+   0    28 0                           TreePS_offsets      0.0001       1.5800  treeallocate()|src/tree/tree.cc|831
+   0    29 0                    TreeSharedMemBaseAddr      0.0001       1.5801  treeallocate()|src/tree/tree.cc|833
+   0    30 0                                NodeLevel      0.0003       1.5804  treeallocate()|src/tree/tree.cc|851
+   0    31 0                              NodeSibling      0.0012       1.5815  treeallocate()|src/tree/tree.cc|852
+   0    32 0                                NodeIndex      0.0012       1.5827  treeallocate()|src/tree/tree.cc|853
+   0    33 0                                 TopNodes      0.0334       1.6161  treeallocate()|src/tree/tree.cc|855
+   0    34 1                                    Nodes      0.1529       1.7690  treeallocate()|src/tree/tree.cc|882
+   0    35 1                                   Points      0.0001       1.7691  treebuild_construct()|src/tree/tree.cc|311
+   0    36 1                                 Nextnode      0.0340       1.8031  treebuild_construct()|src/tree/tree.cc|312
+   0    37 1                                   Father      0.0329       1.8360  treebuild_construct()|src/tree/tree.cc|313
+   0    38 0                                WorkStack    123.5962     125.4322  gravity_tree()|src/gravtree/gwalk.cc|623
+   0    39 0                          ResultIndexList      0.0001     125.4323  gravity_tree()|src/gravtree/gwalk.cc|624
+   0    40 0                    ResultsActiveImported      0.0001     125.4323  gravity_tree()|src/gravtree/gwalk.cc|707
+   0    41 1                             StackToFetch      1.1444     126.5767  gravity_tree()|src/gravtree/gwalk.cc|722
+   0    42 1                            Foreign_Nodes    231.5942     358.1710  gravity_tree()|src/gravtree/gwalk.cc|733
+   0    43 1                           Foreign_Points    855.1172    1213.2881  gravity_tree()|src/gravtree/gwalk.cc|734
+   0    44 1                               CountFetch      0.0001    1213.2882  tree_fetch_foreign_nodes()|src/tree/tree.cc|982
+   0    45 1                              OffsetFetch      0.0001    1213.2883  tree_fetch_foreign_nodes()|src/tree/tree.cc|983
+------------------------------------------------------------------------------------------
+
+MEMORY:  Largest Allocation = 1213.29 Mbyte  |  Largest Allocation Without Generic = 1213.29 Mbyte
+
+-------------------------- Allocated Memory Blocks---- ( Step        0 )------------------
+Task    Nr F                  Variable      MBytes   Cumulative  Function|File|Linenumber
+------------------------------------------------------------------------------------------
+   0     0 0             GetGhostRankForSimulCommRank      0.0001       0.0001  mymalloc_init()|src/data/mymalloc.cc|137
+   0     1 0               GetShmRankForSimulCommRank      0.0001       0.0001  mymalloc_init()|src/data/mymalloc.cc|138
+   0     2 0                GetNodeIDForSimulCommRank      0.0001       0.0002  mymalloc_init()|src/data/mymalloc.cc|139
+   0     3 0                        SharedMemBaseAddr      0.0001       0.0002  mymalloc_init()|src/data/mymalloc.cc|153
+   0     4 1                                        P      1.4305       1.4308  allocate_memory()|src/io/../gravtree/../data/simparticles|273
+   0     5 1                                     SphP      0.0001       1.4308  allocate_memory()|src/io/../gravtree/../data/simparticles|274
+   0     6 1                  NextActiveParticleHydro      0.0001       1.4309  timebins_allocate()|src/time_integration/timestep.cc|463
+   0     7 1                       NextInTimeBinHydro      0.0001       1.4310  timebins_allocate()|src/time_integration/timestep.cc|466
+   0     8 1                       PrevInTimeBinHydro      0.0001       1.4310  timebins_allocate()|src/time_integration/timestep.cc|469
+   0     9 1                NextActiveParticleGravity      0.0477       1.4788  timebins_allocate()|src/time_integration/timestep.cc|463
+   0    10 1                     NextInTimeBinGravity      0.0477       1.5265  timebins_allocate()|src/time_integration/timestep.cc|466
+   0    11 1                     PrevInTimeBinGravity      0.0477       1.5742  timebins_allocate()|src/time_integration/timestep.cc|469
+   0    12 1                       FirstTopleafOfTask      0.0001       1.5743  domain_allocate()|src/domain/domain.cc|163
+   0    13 1                         NumTopleafOfTask      0.0001       1.5743  domain_allocate()|src/domain/domain.cc|164
+   0    14 1                                 TopNodes      0.0026       1.5770  domain_allocate()|src/domain/domain.cc|165
+   0    15 1                               TaskOfLeaf      0.0012       1.5781  domain_allocate()|src/domain/domain.cc|166
+   0    16 1                          ListOfTopleaves      0.0012       1.5793  domain_decomposition()|src/domain/domain.cc|118
+   0    17 1                               Send_count      0.0001       1.5793  treeallocate()|src/tree/tree.cc|794
+   0    18 1                              Send_offset      0.0001       1.5794  treeallocate()|src/tree/tree.cc|795
+   0    19 1                               Recv_count      0.0001       1.5795  treeallocate()|src/tree/tree.cc|796
+   0    20 1                              Recv_offset      0.0001       1.5795  treeallocate()|src/tree/tree.cc|797
+   0    21 0                        TreeNodes_offsets      0.0001       1.5796  treeallocate()|src/tree/tree.cc|824
+   0    22 0                       TreePoints_offsets      0.0001       1.5797  treeallocate()|src/tree/tree.cc|825
+   0    23 0                     TreeNextnode_offsets      0.0001       1.5797  treeallocate()|src/tree/tree.cc|826
+   0    24 0                TreeForeign_Nodes_offsets      0.0001       1.5798  treeallocate()|src/tree/tree.cc|827
+   0    25 0               TreeForeign_Points_offsets      0.0001       1.5798  treeallocate()|src/tree/tree.cc|828
+   0    26 0                            TreeP_offsets      0.0001       1.5799  treeallocate()|src/tree/tree.cc|829
+   0    27 0                         TreeSphP_offsets      0.0001       1.5800  treeallocate()|src/tree/tree.cc|830
+   0    28 0                           TreePS_offsets      0.0001       1.5800  treeallocate()|src/tree/tree.cc|831
+   0    29 0                    TreeSharedMemBaseAddr      0.0001       1.5801  treeallocate()|src/tree/tree.cc|833
+   0    30 0                                NodeLevel      0.0003       1.5804  treeallocate()|src/tree/tree.cc|851
+   0    31 0                              NodeSibling      0.0012       1.5815  treeallocate()|src/tree/tree.cc|852
+   0    32 0                                NodeIndex      0.0012       1.5827  treeallocate()|src/tree/tree.cc|853
+   0    33 0                                 TopNodes      0.0334       1.6161  treeallocate()|src/tree/tree.cc|855
+   0    34 1                                    Nodes      0.1529       1.7690  treeallocate()|src/tree/tree.cc|882
+   0    35 1                                   Points      0.0001       1.7691  treebuild_construct()|src/tree/tree.cc|311
+   0    36 1                                 Nextnode      0.0340       1.8031  treebuild_construct()|src/tree/tree.cc|312
+   0    37 1                                   Father      0.0329       1.8360  treebuild_construct()|src/tree/tree.cc|313
+   0    38 0                                WorkStack    123.5962     125.4322  gravity_tree()|src/gravtree/gwalk.cc|623
+   0    39 0                          ResultIndexList      0.0001     125.4323  gravity_tree()|src/gravtree/gwalk.cc|624
+   0    40 0                    ResultsActiveImported      0.0001     125.4323  gravity_tree()|src/gravtree/gwalk.cc|707
+   0    41 1                             StackToFetch      1.1444     126.5767  gravity_tree()|src/gravtree/gwalk.cc|722
+   0    42 1                            Foreign_Nodes    231.5942     358.1710  gravity_tree()|src/gravtree/gwalk.cc|733
+   0    43 1                           Foreign_Points    855.1172    1213.2881  gravity_tree()|src/gravtree/gwalk.cc|734
+   0    44 1                               CountFetch      0.0001    1213.2882  tree_fetch_foreign_nodes()|src/tree/tree.cc|982
+   0    45 1                              OffsetFetch      0.0001    1213.2883  tree_fetch_foreign_nodes()|src/tree/tree.cc|983
+------------------------------------------------------------------------------------------
